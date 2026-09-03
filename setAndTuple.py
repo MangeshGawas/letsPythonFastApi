@@ -5,5 +5,11 @@ print(len(my_set))
 for i in my_set:
     print(i)
 
-my_set.discard(3)
+my_set.discard(5)
 print(my_set)
+
+#tuple
+
+my_tuple = (1,2,3,4,5)
+print(my_tuple)
+print(type(my_tuple))
