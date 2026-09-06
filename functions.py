@@ -16,3 +16,10 @@ def print_number(highestNo, lowestNo):
     print(lowestNo)
 
 print_number(lowestNo=2,highestNo=12)
+
+
+def multiply_number(a,b):
+    return a * b
+
+solution = multiply_number(10,2)
+print(solution)
