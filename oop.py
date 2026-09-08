@@ -17,3 +17,34 @@ print(my_dog.name)       # Output: Buddy
 print(your_dog.breed)    # Output: German Shepherd
 print(my_dog.bark())     # Output: Buddy says Woof!
 print(your_dog.bark())   # Output: Rex says Woof!
+
+
+'''
+programming paradigm based on the concept of Obj 
+
+Object : Tree , house , my dog
+        define them by behaviou oor state
+        behaviou:bark ,eat , drink
+        state: 4 leg , 2 ear 
+
+
+
+class Dog:
+    leg:int = 4
+    ears:int = 2
+    
+from Dog import *
+dog = Dog()
+dog.legs
+dog.ears
+dog.type
+
+##4 Pillar
+
+1) Encapsulation
+2) Abstraction
+3) Inheritance
+4) Polymorphism
+
+
+
